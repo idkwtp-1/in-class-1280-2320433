@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "eamodio.gitlens",
+        "donjayamanne.githistory",
+        "ecmel.vscode-html-css",
+        "ritwickdey.liveserver",
+        "pkief.material-icon-theme",
+        "esbenp.prettier-vscode",
+        "sibiraj-s.vscode-scss-formatter"
+    ]
+}
