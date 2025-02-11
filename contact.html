@@ -1,4 +1,13 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Document</title><script defer="defer" src="contact.js"></script><link href="contact.css" rel="stylesheet"><style>body, nav, a, div, form, label, input, textarea, button {
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Document</title>
+    <script defer="defer" src="contact.js"></script>
+    <link href="contact.css" rel="stylesheet">
+    <style>
+        body, nav, a, div, form, label, input, textarea, button {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -74,4 +83,25 @@
 
         #contactForm button:hover {
             background-color: #555;
-        }</style><script defer="defer" src="contact.js"></script><link href="contact.css" rel="stylesheet"></head><body><nav><a href="index.html">Home</a> <a href="Feedback.html">Feedback</a></nav><div id="contact"><form id="contactForm"><label for="name">Name:</label> <input id="name" name="name" required> <label for="email">Email:</label> <input id="email" name="email" type="email" required> <label for="message">Message:</label> <textarea id="message" name="message" required></textarea> <button type="submit">Send</button></form></div><script src="dist/contact.js"></script></body></html>
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="Feedback.html">Feedback</a>
+    </nav>
+    <div id="contact">
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input id="name" name="name" type="text" required>
+            <label for="email">Email:</label>
+            <input id="email" name="email" type="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <script src="dist/contact.js"></script>
+</body>
+</html>
